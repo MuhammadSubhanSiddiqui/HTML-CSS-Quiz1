@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    background-color: rgb(247, 248, 176);
+    color: orange;
+    height: 100vh;
+    text-align: left;
+}
+.left-panel {
+    height: 100%;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-panel {
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+h1 {
+    color: orange;
+    font-size: 24px;
+}
+
+button {
+    border: 2px solid #0074D9;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn {
+    color: white;
+    background-color:#0074D9;
+}
+#start {
+    color: #333;
+}
+.links a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+#get {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+footer {
+    background-color: white;
+    height: 10%;
+    width: auto;
+    box-align: baseline;
+    color: #333;
+    margin: auto 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: end;
+}
+.foot {
+    font-size: xx-small;
+}
+#cont {
+    font-size: 2000px;
+    text-align: center;
+    color: orange;
+}
